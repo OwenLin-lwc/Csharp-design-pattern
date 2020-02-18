@@ -1,3 +1,4 @@
+using Csharp_design_pattern.DecoratorPattern;
 using Csharp_design_pattern.ObserverPattern;
 using Csharp_design_pattern.StrategyPattern;
 using System;
@@ -18,6 +19,9 @@ namespace Csharp_design_pattern
 
             ObserverPatternTest observerPattern = new ObserverPatternTest();
             observerPattern.WeatherStation();
+
+            DecoratorPatternTest decoratorPattern = new DecoratorPatternTest();
+            decoratorPattern.StarBuzzCoffee();
 
             Console.ReadLine();
         }

@@ -62,6 +62,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DecoratorPattern\DecoratorPatternTest.cs" />
+    <Compile Include="DecoratorPattern\Models\Beverage.cs" />
+    <Compile Include="DecoratorPattern\Models\CondimentDecorator.cs" />
+    <Compile Include="DecoratorPattern\Models\Espresso.cs" />
+    <Compile Include="DecoratorPattern\Models\HouseBlend.cs" />
+    <Compile Include="DecoratorPattern\Models\Mocha.cs" />
+    <Compile Include="DecoratorPattern\Models\Soy.cs" />
+    <Compile Include="DecoratorPattern\Models\Whip.cs" />
     <Compile Include="ObserverPattern\Interfaces\IDisplayElement.cs" />
     <Compile Include="ObserverPattern\Interfaces\IObserver.cs" />
     <Compile Include="ObserverPattern\Interfaces\ISubject.cs" />
