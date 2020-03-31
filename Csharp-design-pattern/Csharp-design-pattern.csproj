@@ -70,6 +70,14 @@
     <Compile Include="DecoratorPattern\Models\Mocha.cs" />
     <Compile Include="DecoratorPattern\Models\Soy.cs" />
     <Compile Include="DecoratorPattern\Models\Whip.cs" />
+    <Compile Include="FatoryPattern\FactoryPatternTest.cs" />
+    <Compile Include="FatoryPattern\Models\CheesePizza.cs" />
+    <Compile Include="FatoryPattern\Models\ClamPizza.cs" />
+    <Compile Include="FatoryPattern\Models\PepperoniPizza.cs" />
+    <Compile Include="FatoryPattern\Models\Pizza.cs" />
+    <Compile Include="FatoryPattern\Models\PizzaStore.cs" />
+    <Compile Include="FatoryPattern\Models\SimplePizzaFactory.cs" />
+    <Compile Include="FatoryPattern\Models\VeggiePizza.cs" />
     <Compile Include="ObserverPattern\Interfaces\IDisplayElement.cs" />
     <Compile Include="ObserverPattern\Interfaces\IObserver.cs" />
     <Compile Include="ObserverPattern\Interfaces\ISubject.cs" />
